@@ -8,5 +8,3 @@ Game play description:
 7. No matter placing a meeple or not, user can click end turn button after tile placement.
 
 * SpotBugs may show some error of "unused fields", that is due to the JSONReader only instantiating the fields at runtime.
-
-From part B to part C, several public getters are added in the Game class. The responsibility is divided into two panels, board and user statistics. To display the original image of tiles after the meeple is returned, a ButtonImagePair is added to store the image & jbutton, so that we can reset the button icon afterward.
