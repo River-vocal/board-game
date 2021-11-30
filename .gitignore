@@ -4,3 +4,22 @@
 /design_documents
 /.idea
 /downloads
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+build/
+*.aux
+*.log
+*.out
+
+# Workspace configuration files
+.settings/
+.metadata/
+.idea/
+
+# Mac OS X hidden files
+.DS_Store
+.gradle/
